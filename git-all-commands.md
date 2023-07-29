@@ -1,5 +1,5 @@
 # Git Commands
-## This Gist contains all the useful commands for Git prepared by Ankush Yadav
+## This list contains all the useful commands for Git prepared by Ankush Yadav
 
 
 Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
