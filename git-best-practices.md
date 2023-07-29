@@ -1,8 +1,6 @@
 
-#Best practices for Git 
-As per industry standards can vary slightly based on specific team workflows and project requirements. However, the following are some widely recommended Git best practices followed by many software development teams: 
+Best practices for Git as per industry standards can vary slightly based on specific team workflows and project requirements. However, the following are some widely recommended Git best practices followed by many software development teams: 
 
-```sh
 * Use Version Control for All Projects: 
 Use Git (or any other version control system) for every project, no matter how small. Version control helps you track changes, collaborate effectively, and revert to previous states if needed.
 
@@ -49,5 +47,3 @@ Regularly clean up branches that are no longer needed and consider archiving old
 Make sure all team members are familiar with Git and the adopted workflow. Provide training and documentation to onboard new developers. 
 
 Remember that while these are general best practices, they may need to be adapted to suit your team's specific needs and the nature of the projects you're working on. Consistency, communication, and collaboration among team members are key to successfully implementing Git best practices.
-
-```
