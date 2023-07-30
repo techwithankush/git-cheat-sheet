@@ -689,3 +689,63 @@ git merge <remote_name>/<remote_branch_name>
 
 ```
 
+-------------------------------
+8. Stash, Cherry-pick & Squash:
+-------------------------------
+
+```sh
+# Stash changes with a message
+git stash save "Your stash message"
+
+# View list of stashes
+git stash list
+
+# Show contents of a specific stash
+git stash show stash@{<stash_index>}
+
+# Apply a specific stash
+git stash apply stash@{<stash_index>}
+
+# Apply the latest stash
+git stash apply
+
+# Apply a stash and drop it from stash list
+git stash pop stash@{<stash_index>}
+
+# Drop a specific stash
+git stash drop stash@{<stash_index>}
+
+# Clear all stashes
+git stash clear
+
+# Stash untracked files
+git stash save --include-untracked
+
+# Stash ignored files
+git stash save --all
+
+# View diff of stashed changes
+git stash show -p stash@{<stash_index>}
+
+# Create a branch from a stash
+git stash branch <branch_name> stash@{<stash_index>}
+
+# Cherry-pick Commands
+# --------------------
+
+# Cherry-pick a specific commit
+git cherry-pick <commit_hash>
+
+# Squash Commands
+# ---------------
+
+# Interactively rebase to squash commits
+git rebase -i HEAD~<num_of_commits>
+
+# In the editor, change "pick" to "squash" or "s" for commits to squash
+# pick <commit_hash1> Your commit message 1
+# s <commit_hash2> Your commit message 2
+# s <commit_hash3> Your commit message 3
+
+```
+
